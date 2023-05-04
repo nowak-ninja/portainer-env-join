@@ -14,5 +14,4 @@ docker run -d \
   -p ${IP}:9001:9001 \
   --restart always \
   --name portainer_edge_agent \
-  portainer/agent:2.15.1
- 
+  portainer/agent:latest
